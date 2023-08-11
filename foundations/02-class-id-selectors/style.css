@@ -1,0 +1,19 @@
+.OddNumbered {
+    background-color: #df8f8f;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#Number2 {
+    color: #0000d8;
+    font-size: 36px;
+}
+
+.Number3 {
+    font-size: 24px;
+}
+
+#Number4 {
+    background-color: hsl(120, 29%, 66%);
+    font-size: 24px;
+    font-weight: bold;
+}
