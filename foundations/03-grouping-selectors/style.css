@@ -1,0 +1,13 @@
+arguingButton1, arguingButton2 {
+    font-size: 28px
+    font-family: "Helvetica", "Times New Roman", sans-serif
+}
+
+arguingButton1 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+arguingButton2 {
+    background-color: #ffff38;
+}
