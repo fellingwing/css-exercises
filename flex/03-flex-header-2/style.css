@@ -46,3 +46,34 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*Changes*/
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-header {
+  display:flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.right-header {
+  display:flex;
+  gap: 16px;
+  align-items: center;
+}
+
+/* delineating the left and right side of header was redundant*/
