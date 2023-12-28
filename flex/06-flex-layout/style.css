@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -27,7 +30,7 @@ input {
   margin-bottom: 16px;
 }
 
-li, ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -39,5 +42,26 @@ a {
 }
 
 .footer {
-  color: #eeeeee;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
